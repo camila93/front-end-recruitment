@@ -1,0 +1,26 @@
+{
+  "name": "front-end-recruitment",
+  "version": "1.0.0",
+  "description": "## Expected result",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "node-sass assets/sass/app.scss -o dist/ --source-map true",
+    "dev": "rerun-script",
+    "lite": "lite-server",
+    "start": "concurrently \"npm run dev\"  \"npm run lite\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camila93/front-end-recruitment.git"
+  },
+  "author": "Camila Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camila93/front-end-recruitment/issues"
+  },
+  "homepage": "https://github.com/camila93/front-end-recruitment#readme"
+}
